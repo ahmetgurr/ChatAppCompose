@@ -104,5 +104,4 @@ fun SignUpScreen(
 @Preview
 @Composable
 fun PreviewSignUpScreen(){
-    //SignUpScreen()
 }

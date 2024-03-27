@@ -28,6 +28,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.ahmetgur.chatapp.viewmodel.AuthViewModel
 import com.ahmetgur.chatapp.data.Result
+import com.ahmetgur.chatapp.data.UserRepository
 
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -98,10 +99,4 @@ fun LoginScreen(
             }
         )
     }
-}
-
-@Preview
-@Composable
-fun LoginPreview() {
-    //LoginScreen()
 }
